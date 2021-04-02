@@ -1,17 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tushar Singh Bisht</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        hello world
-    </div>    
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="nav" id="navbar">
+        <ul class="nav-list" id="navList">
+            <li class="nav-list-item">
+                <a id="home-nav-btn">
+                    $ Home
+                </a>
+            </li>
+            <li class="nav-list-item">
+                <a id="about-nav-btn">
+                    $ About
+                </a>
+            </li>
+            <li class="nav-list-item">
+                <a id="work-nav-btn">
+                    $ Work
+                </a>
+            </li>
+            <li class="nav-list-item">
+                <a id="contact-nav-btn">
+                    $ Contact
+                </a>
+            </li>
+        </ul>
+        <div id="action-btn" class="nav-right" id="navRight">
+            <i class="fa fa-phone-alt"></i>
+            <a class="contact-btn">Contact</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="screen">
+            <div class="top-item">
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+            <div class="main" id="home-screen">
+                <img src="images/laptop-coding--v2.png" alt="code">
+                <h1>Tushar Singh Bisht</h1>
+                <p>Hey! welcome to my website,<br>I am Tushar a programmer who loves to work with <br> different
+                    programming languages.</p>
+                <p><br>#code</p>
+            </div>
+
+            <div class="about" id="about-screen">
+                <h1>About</h1>
+                <p>Hello, I am Tushar Singh Bisht, I live in New Delhi,India. My hobby is programming and I love to work
+                    with different programming languages. My speciality is making cool and awesome websites and apps and
+                    if you want to create your own website at cheap rate , I can create one for you just click on
+                    contact button and tell me what do you want in your website. <br> I have a great knowledge of
+                    Javascript, Python, Java, NodeJS, React and MERN stack and I also have a great intrest in AI and ML.
+                </p>
+            </div>
+
+            <div class="work" id="work-screen">
+                <h1>Recent works</h1>
+                <h3>Instagram Clone : <a target="_blank" href="http://tsb-instagram.herokuapp.com">See...</a></h3>
+                <h3>TicTacToe : <a target="_blank" href="https://1234ayushbisht.github.io/TicTacToe/">See...</a></h3>
+                <h3>Todo app : <a target="_blank" href="https://1234ayushbisht.github.io/TodoApp/index">See...</a></h3>
+                <h3>Simple Calculator: <a target="_blank" href="https://1234ayushbisht.github.io/Calculator/index.html">See...</a></h3>
+                <h3></h3>
+            </div>
+
+            <div class="contact" id="contact-screen">
+                <h1>Get in touch</h1>
+                <form id="contact-form">
+                    <input type="text" placeholder="Enter Your Name" id="name" required>
+                    <input type="email" placeholder="Enter Your email" id="email" required>
+                    <input type="tel" placeholder="Enter Your Phone Number" id="phone" required>
+                    <textarea placeholder="What do you want ?" id="text" cols="30" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <ul class="social-btns">
+        <li><a href="https://facebook.com/tushar.bisht.712161" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="https://twitter.com/TusharB93866340" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/1234ayushBisht" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://instagarm.com/tushar.coder" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+    </ul>
+
+
+    <div class="footer">
+        <p>Copyright 2021&copy; || All Right Reserved&reg;</p>
+        <p>Made With Love by Tushar &hearts;</p>
+    </div>
+
+    <script src="js/switch.js"></script>
+    <script src="js/change_nav.js"></script>
+    <script src="js/form.js"></script>
 </body>
+
 </html>
