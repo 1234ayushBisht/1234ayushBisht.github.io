@@ -17,7 +17,7 @@ form.addEventListener("submit", e => {
         text: text.value
     }
 
-    fetch("http://tusharcontactform.herokuapp.com/",
+    fetch("https://tusharcontactform.herokuapp.com/",
         {
             // mode: "no-cors",
             method: "POST",
